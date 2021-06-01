@@ -1,0 +1,18 @@
+.landingCarausel {
+    height: 90vh;
+    width: 30vw;
+    /* background-color: pink; */
+}
+
+.landingCarausel__static {
+    height: 100%;
+    width: 100%;
+    background: url("https://www.instagram.com/static/images/homepage/home-phones.png/43cc71bb1b43.png");
+}
+
+.landingCarausel__static img {
+    height: 72.5%;
+    width: 60%;
+    margin-left: 11vw;
+    margin-top: 14.5vh;
+}

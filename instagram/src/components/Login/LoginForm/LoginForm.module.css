@@ -1,0 +1,30 @@
+.container {
+    height: 50vh;
+    width: 30vw;
+    background-color: white;
+    text-align: center;
+    margin-top: 10vh;
+    margin-left: 2vw;
+    border: 1px solid lightgray;
+}
+
+.side {
+    height: 0.5px;
+    width: 10vw;
+    /* margin-top: 1vh; */
+    color: gray;
+    background-color: gray;
+}
+
+.or {
+    color: gray;
+    font-weight: bold;
+    font-size: smaller;
+    
+}
+
+.loginform__separate {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
