@@ -1,6 +1,57 @@
-.login__body {
+.login {
+    display: flex;
+    justify-content: center;
     height: 100vh;
     background-color: whitesmoke;
+}
+
+.login__form {
+    margin-top: 10vh;
+    height: 60vh;
+    width: 25vw;
+    text-align: center;
+    background-color: white;
+    /* margin-left: ; */
+    border: 1px solid lightgray;
+}
+
+.login__loginForm {
+    display: block;
+    margin: 0 auto 0 auto;
+}
+
+.login__separator {
     display: flex;
-    justify-content:center;
+    justify-content: center;
+    /* margin-top: 1vh; */
+}
+
+.login__separatorSide {
+    height: 0.5px;
+    background-color: gray;
+    width: 5vw;
+    margin-top: 2vh;
+}
+
+.login__separatorOr {
+    color: gray;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 0.5vh;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+}
+
+.instagram {
+    margin-top: 12.5vh;
+}
+
+.login__signup p {
+    font-size: 15px;
+}
+
+.login__signup p span {
+    color: rgba(0,149,246);
+    font-weight: bold;
+    cursor: pointer;
 }

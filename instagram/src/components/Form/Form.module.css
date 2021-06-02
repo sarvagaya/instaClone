@@ -1,0 +1,18 @@
+.form {
+    width: 20vw;
+    /* background-color: yellow; */
+}
+
+.input {
+    margin-left: 3.5vw;
+}
+
+.input:first-child {
+    margin-top: 2vh;
+}
+.button {
+    margin-left: 3.5vw;
+    border-radius: 5px;
+    padding: 1vh 0;
+    border: 1px solid transparent;
+}
