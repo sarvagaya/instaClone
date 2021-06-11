@@ -5,6 +5,7 @@
 
 .input {
     margin-left: 3.5vw;
+    padding-left: 0.25vw;
 }
 
 .input:first-child {
@@ -15,4 +16,9 @@
     border-radius: 5px;
     padding: 1vh 0;
     border: 1px solid transparent;
+}
+
+button:disabled, button[disabled] {
+    background-color: rgba(0,149,246);
+    opacity: 0.2;
 }

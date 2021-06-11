@@ -8,7 +8,7 @@ const Form = props => {
         <form className={styles.form}>
             <Input className={styles.input} type="email" name="email" id="email" placeholder="Enter email" />
             <Input className={styles.input} type="password" name="password" id="password" placeholder="Password" />
-            <Button type="submit" className={styles.button}>Log in</Button>
+            <Button type="submit" className={styles.button} disabled={true}>Log in</Button>
         </form>
     )
 }
